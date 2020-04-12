@@ -1,1 +1,0 @@
-# dbmsproj.github.io
