@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            my page
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="matchtable.html">Timetable</a></li>
+                </ul>
+            </nav>
+           <h1>
+               HOME PAGE
+           </h1>
+        </header>
+        <section>
+             <b><u>welcome to the Home page!</u></b>
+             <BR>
+             <br><b>Fill the given details to book your seat!</b>
+             <br>
+            <br>
+            <a href="matchtable.html"><button>Go To the match table page</button></a>
+            <form action="/submit.html">
+                <br>
+                <br>
+                <label for="match no.">Choose match number:</label>
+                    <select id="match no." required>
+                        <option label="0" hidden> </option>
+                        <option label="1">1</option>
+                        <option label="2">2</option>
+                        <option label="3">3</option>
+                        <option label="4">4</option>
+                        <option label="5">5</option>
+                    </select>
+                    <br>
+                  
+                    <br>
+                    <label for="seat">
+                        Select your seat!
+                        <br>
+                        (ctrl-click to select multiple seats)
+                        <br>
+                        <br>
+                       </label>
+                       <select id = "seat"
+                       multiple="multiple" required>
+                       <option value="0" hidden> </option>
+                        <option value = "1">1(silver)</option>
+                        <option value = "2">2(silver)</option>
+                        <option value = "3">3(gold)</option>
+                        <option value = "4">4(gold)</option>
+                        <option value = "5">5(platinum)</option>
+                        </select>
+                       <button type = "button"
+                         onclick = "showChoices()">
+                        Book
+                       </button>
+                <br>
+                <br>
+                <input type="submit"/>
+            </form>
+        </section>
+        <footer>
+            <center>DBMS PROJECT ON ONLINE CRICKET MATCH TICKET BOOKING SYSTEM</center>
+        </footer>
+    </body>
+</html>
