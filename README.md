@@ -1,1 +1,0 @@
-# dbmsprojectsdev.github.io
